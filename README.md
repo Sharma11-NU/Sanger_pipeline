@@ -105,4 +105,4 @@ a real cluster with real data.
 
 ## Author
 
-Divya Sharma — Northeastern University
+Divya Sharma - Northeastern University
