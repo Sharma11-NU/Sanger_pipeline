@@ -1,0 +1,4 @@
+Sample	F_length	R_length	Alignment_score	Agreement%
+sample1	694	688	1190.0	84.3
+sample2	695	687	1202.0	85.2
+sample3	690	688	1088.5	79.8

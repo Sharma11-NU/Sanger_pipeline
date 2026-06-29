@@ -1,0 +1,7 @@
+Sample,Original_bp,Trimmed_bp,Bases_removed,MeanQ,MedianQ,PctQ20,PctQ30
+sample1_F,703,694,9,52.8,61,96.0,92.6
+sample1_R,705,688,17,54.9,61,96.0,93.8
+sample2_F,703,695,8,55.7,61,97.4,95.9
+sample2_R,705,687,18,54.5,61,95.0,93.2
+sample3_F,705,690,15,54.2,61,94.2,92.3
+sample3_R,710,688,22,51.6,61.0,92.0,90.0

@@ -1,0 +1,7 @@
+Sample	Top_Hit	Identity%	E-value	Score
+sample1_F	gi|300875876|gb|HM417895.1| Allolobophora chlorotica voucher AC1 cytochrome oxid	99.5	0.0	1290.0
+sample1_R	gi|300875876|gb|HM417895.1| Allolobophora chlorotica voucher AC1 cytochrome oxid	99.1	0.0	1264.0
+sample2_F	gi|300875876|gb|HM417895.1| Allolobophora chlorotica voucher AC1 cytochrome oxid	99.5	0.0	1290.0
+sample2_R	gi|300875876|gb|HM417895.1| Allolobophora chlorotica voucher AC1 cytochrome oxid	99.4	0.0	1274.0
+sample3_F	gi|300875930|gb|HM417922.1| Allolobophora chlorotica voucher B1 cytochrome oxida	98.7	0.0	1242.0
+sample3_R	gi|300875930|gb|HM417922.1| Allolobophora chlorotica voucher B1 cytochrome oxida	98.9	0.0	1209.0
