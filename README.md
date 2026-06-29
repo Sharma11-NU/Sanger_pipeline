@@ -7,7 +7,6 @@ way from binary trace data to identified sequences with quality reports.
 Everything was built and run on Northeastern University's Discovery cluster 
 using SLURM for job scheduling and conda for environment management.
 
----
 
 ## What it does
 
@@ -20,18 +19,17 @@ the results.
 
 The six steps are:
 
-1. **Inspect** — reads every .ab1 file and pulls out the sequence length, 
+1. **Inspect** - reads every .ab1 file and pulls out the sequence length, 
    mean Phred quality score, and a preview of the first 50 bases
-2. **Chromatogram** — plots the raw fluorescence trace for each sample so 
+2. **Chromatogram** - plots the raw fluorescence trace for each sample so 
    you can visually see where the signal is clean and where it degrades
-3. **Trim** — removes low quality bases from both ends using a Q20 threshold, 
+3. **Trim** - removes low quality bases from both ends using a Q20 threshold, 
    keeping only the reliable middle region
-4. **BLAST** — sends each trimmed sequence to NCBI and identifies what it matches
-5. **Reconcile** — reverse complements the reverse reads and aligns them against 
+4. **BLAST** - sends each trimmed sequence to NCBI and identifies what it matches
+5. **Reconcile** - reverse complements the reverse reads and aligns them against 
    the forward reads to check they agree
-6. **Report** — combines everything into a single CSV with all quality metrics
+6. **Report** - combines everything into a single CSV with all quality metrics
 
----
 
 ## The data
 
@@ -43,17 +41,16 @@ identifies a product in a supermarket.
 
 The data came from a published study deposited on Zenodo.
 
----
 
 ## What I found
 
 All six reads matched *Allolobophora chlorotica* with E-values of 0.0 
 meaning the matches are statistically certain. Samples 1 and 2 matched 
 one voucher specimen (AC1) at 99.5% identity, while sample 3 matched a 
-different voucher (B1) at 98.7% — suggesting it represents a slightly 
+different voucher (B1) at 98.7% - suggesting it represents a slightly 
 different haplotype of the same species.
 
-The reads were very high quality — median Phred score of 61 across all 
+The reads were very high quality - median Phred score of 61 across all 
 samples, with over 92% of bases above Q30. Trimming removed fewer than 
 22 bases from any read, meaning almost no data was lost.
 
@@ -66,7 +63,6 @@ samples, with over 92% of bases above Q30. Trimming removed fewer than
 | sample3_F | 98.7% | 0.0 | 54.2 |
 | sample3_R | 98.9% | 0.0 | 51.6 |
 
----
 
 ## How to run it
 
